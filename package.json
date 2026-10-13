@@ -1,0 +1,39 @@
+{
+  "name": "canvas-table-grid",
+  "version": "0.1.0",
+  "description": "SolidJS製・canvas描画のテーブル/グリッド編集ライブラリ（日本語IME対応、行列ヘッダ選択、範囲選択、Undo/Redo、書式設定対応）",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite",
+    "build:example": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "solidjs",
+    "canvas",
+    "grid",
+    "spreadsheet",
+    "table"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "solid-js": "^1.9.0"
+  },
+  "devDependencies": {
+    "solid-js": "^1.9.4",
+    "typescript": "^5.6.3",
+    "vite": "^8.3.1",
+    "vite-plugin-solid": "^2.10.2",
+    "vitest": "^5.0.2"
+  }
+}
