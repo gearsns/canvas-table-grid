@@ -6,6 +6,11 @@ SolidJS 製・canvas 描画のテーブル／グリッド編集ライブラリ�
 
 ![alt](image/image.png)
 
+
+# デモ
+
+[https://gearsns.github.io/canvas-table-grid/index.html](https://gearsns.github.io/canvas-table-grid/index.html)
+
 ## 特徴
 
 - **canvas 描画**：セル・グリッド線・ヘッダ・選択範囲をすべて `<canvas>` に描画し、行数×列数が多くても軽快に動作します。
